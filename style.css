@@ -610,3 +610,104 @@ transition: transform 0.2s;
 transform:  scale(1.1);
 background-color: #ffe6f0;
 }
+
+
+
+@media (max-width: 768px) {
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .img, .girl-img, .book-img, .libirary1, .GIRLA, .hero {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .img2 {
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .title-row-img,
+  .Arts,
+  .dream,
+  .title-row {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .colume,
+  .colume1,
+  .book,
+  .art,
+  .left,
+  .right,
+  .container {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  .gallary {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+
+  .right1-image {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .right1-image img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .left1-image img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .dream-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: auto;
+  }
+
+  .view,
+  .btn,
+  .buttons {
+    position: static;
+    transform: none;
+    text-align: center;
+  }
+
+  .contact-container {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .main-content {
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-title {
+    position: static;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
